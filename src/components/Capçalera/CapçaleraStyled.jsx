@@ -38,7 +38,7 @@ export const Contenidor = styled.div`
     color: ${({ theme }) => theme.colors.lletraGlobal};
     text-transform: uppercase;
     cursor: pointer;
-    
+
     &:hover {
       outline: 0.1rem solid ${({ theme }) => theme.colors.vora};
       border-radius: 0.5rem;

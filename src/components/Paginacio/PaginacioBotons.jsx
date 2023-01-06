@@ -1,7 +1,6 @@
-import { Contenidor } from "./PaginacioStyled";
+import { Contenidor } from "./PaginacioBotonsStyled";
 
-const Paginacio = ({pagina, setPagina, next}) => {
- 
+const Paginacio = ({ pagina, setPagina, next }) => {
   return (
     <Contenidor>
       <button
