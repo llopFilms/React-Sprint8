@@ -8,6 +8,8 @@ export const THEME = {
     fons: "#111",
     fonsFosc: "#000",
     vora: "#ccc",
+    voraBlava: "#0d66d7",
+    voraVermella: "#582e37",
     divisor: "#444",
     lletraGlobal: "#eef",
     deshabilitat: "#777"

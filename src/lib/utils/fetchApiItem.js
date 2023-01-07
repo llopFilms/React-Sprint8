@@ -12,10 +12,11 @@ export const fetchAPIItemData = async (
       {
         method: "get",
         url: urlItem,
+        signal: signal,
       },
-      { signal }
     );
     setItemData(respostaItem.data);
+    console.log(respostaItem.data);
     console.log("Dades item carregades correctament");
   } catch (err) {
     setErrorItemData(err.message);
@@ -34,8 +35,8 @@ export const fetchAPIItemImg = async (
       {
         method: "get",
         url: urlItemImg,
+        signal: signal,
       },
-      { signal }
     );
     setItemImg(urlItemImg);
     console.log(respostaItem.data);

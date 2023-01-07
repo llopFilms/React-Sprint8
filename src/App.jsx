@@ -6,7 +6,6 @@ import Navegador from "./components/Navegador/Navegador";
 import Router from "./modules/Router";
 import Footer from "./components/Footer/Footer";
 
-
 function App() {
   return (
     <ThemeProvider theme={THEME}>
@@ -19,7 +18,7 @@ function App() {
         <Router />
       </main>
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </ThemeProvider>
   );
