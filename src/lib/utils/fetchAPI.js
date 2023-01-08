@@ -10,7 +10,7 @@ export const fetchAPI = async (url, pagina, setDades, setError, signal) => {
         params: { page: pagina },
       },
     );
-
+      
     setDades(resposta.data);
     console.log("Dades carregades correctament");
   } catch (err) {
