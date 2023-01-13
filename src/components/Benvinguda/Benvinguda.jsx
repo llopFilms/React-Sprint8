@@ -1,6 +1,6 @@
 import { Contenidor } from "./BenvingudaStyled";
 import { useNavigate } from "react-router-dom";
-import { endPointsAPI } from "../../lib/constants/endPointsAPI";
+import { ENDPOINTSAPI } from "../../lib/constants/endPointsAPI";
 import { publish } from "../../lib/utils/cutomEvents";
 
 const VistaError = () => {
@@ -22,7 +22,7 @@ const VistaError = () => {
         </h2>
         <div>
           <img
-            src={endPointsAPI.starshipBenvinguda}
+            src={ENDPOINTSAPI.starshipBenvinguda}
             alt="starship benvinguda"
           />
         </div>
