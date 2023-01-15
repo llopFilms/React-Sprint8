@@ -13,12 +13,12 @@ const Navegador = () => {
 
   useEffect(() => {
     subscribe("starShipsClick", () => dispatch({ type: "starShipsClick" }));
-    subscribe("starShipClick", () => dispatch({ type: "starShipClick" }));
+    subscribe("none", () => dispatch({ type: "none" }));
     subscribe("homeClick", () => dispatch({ type: "homeClick" }));
 
     return () => {
       unsubscribe("starShipsClick", () => dispatch({ type: "default" }));
-      unsubscribe("starShipClick", () => dispatch({ type: "default" }));
+      unsubscribe("none", () => dispatch({ type: "default" }));
       unsubscribe("homeClick", () => dispatch({ type: "default" }));
     };
   }, [state]);

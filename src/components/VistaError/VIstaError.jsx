@@ -1,9 +1,10 @@
 import { Contenidor, ContenidorImg, Img } from "./VistaErrorStyled";
 import error404 from "../../assets/img/starWars_404.webp";
-import {useNavigate} from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 const VistaError = () => {
   const navega = useNavigate();
+
   return (
     <Contenidor>
       <ContenidorImg>

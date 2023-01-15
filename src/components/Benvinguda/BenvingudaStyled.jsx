@@ -1,3 +1,4 @@
+
 import styled from "styled-components";
 
 export const Contenidor = styled.div`
@@ -52,6 +53,12 @@ export const Contenidor = styled.div`
       text-align: justify;
       margin: -1.25rem 1rem 0.5rem;
     }
+  }
+
+  .link {
+    width: auto;
+    margin: 0;
+    padding: 0;
   }
 
   button {

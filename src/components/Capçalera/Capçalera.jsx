@@ -1,10 +1,9 @@
 import logo from "../../assets/img/logo-starwars.png";
 import { Contenidor } from "./CapçaleraStyled";
-import { useNavigate } from "react-router-dom";
 import { useAutenticacioContext } from "../../context/autentitcacioContext";
+import EnvLink from "../common/EnvLink";
 
 const Capçalera = () => {
-  const navega = useNavigate();
   const { usuariLoguejat } = useAutenticacioContext();
 
   return (
@@ -12,18 +11,17 @@ const Capçalera = () => {
       <div>
         <img src={logo} alt="logo Star Wars" />
       </div>
-      <div>
-        <button
-          onClick={() =>
-            usuariLoguejat === null
-              ? navega(process.env.PUBLIC_URL + "/login")
-              : navega(process.env.PUBLIC_URL + "/logout")
+      <div className="div2">
+        <EnvLink
+          className="link"
+          to={
+            usuariLoguejat === null ? "/auth/login" : "/starships/auth/logout"
           }>
-          {usuariLoguejat === null ? "log in" : "log out"}
-        </button>
-        <button onClick={() => navega(process.env.PUBLIC_URL + "/signup")}>
-          sign up
-        </button>
+          <button>{usuariLoguejat === null ? "log in" : "log out"}</button>
+        </EnvLink>
+        <EnvLink className="link" to={"/auth/signup"}>
+          <button>sign up</button>
+        </EnvLink>
       </div>
     </Contenidor>
   );
