@@ -2,7 +2,8 @@ export const THEME = {
   fontSizeGeneral: "62.5%",
   amplada: {
     tauleta: "768px",
-    movil: "480px"
+		movil: "480px",
+		movilPetit: "350px"
   },
   colors: {
     fons: "#111",

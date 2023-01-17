@@ -6,8 +6,8 @@ import Error from "../pages/Error/Error";
 import Login from "../components/Login/Login";
 import Signup from "../components/Signup/Signup";
 import Logout from "../components/Logout/Logout";
-import Public from '../components/Router/Public';
-import Privat from '../components/Router/Privat';
+import Public from './Public';
+import Privat from './Privat';
 
 const Router = () => {
 

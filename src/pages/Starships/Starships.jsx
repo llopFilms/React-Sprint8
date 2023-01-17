@@ -1,14 +1,14 @@
 import { Contenidor } from "../common/ContenidorPageStyled";
-import Llista from "../../components/Llista/Llista";
 import { useEffect } from "react";
 import { publish } from "../../lib/utils/cutomEvents";
+import LlistaStarships from "../../components/LlistaStarships/LlistaStarships";
 
 const StarShips = () => {
   useEffect(() => publish("starShipsClick"), []);
   
   return (
     <Contenidor>
-      <Llista />
+      <LlistaStarships />
     </Contenidor>
   );
 };

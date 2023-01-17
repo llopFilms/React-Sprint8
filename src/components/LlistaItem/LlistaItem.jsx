@@ -1,12 +1,12 @@
-import { getStarshipId } from "../../lib/utils/getStarshipId";
-import EnvLink from "../common/EnvLink";
+import { getItemId } from "../../lib/utils/getItemId";
 import { Contenidor } from "./LlistaItemStyled";
+import EnvLink from "../common/EnvLink";
 
 const LlistaItem = ({ starship }) => {
 
   return (
     <EnvLink
-      to={"/starships/starship/" + getStarshipId(starship.url)}
+      to={"/starships/starship/" + getItemId(starship.url)}
       className="link">
       <Contenidor>
         <li>{starship.name}</li>
