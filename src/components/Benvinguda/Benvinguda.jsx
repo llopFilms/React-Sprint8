@@ -12,7 +12,7 @@ const Benvinguda = () => (
           "Greetings, Star Wars fans! We are thrilled to have you visit our Star
           Wars website and embark on this journey through the galaxy
         </h2>
-        <div>
+        <div className="imatge-nau">
           <img
             src={ENDPOINTSAPI.starshipBenvinguda}
             alt="starship benvinguda"

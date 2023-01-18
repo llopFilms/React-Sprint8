@@ -7,6 +7,7 @@ export const Contenidor = styled.div`
 
   div:nth-child(1) {
     background-color: ${({ theme }) => theme.colors.fons};
+		margin: 0 3rem;
     padding: 2rem 2.5rem;
     border-radius: 1rem;
     display: flex;
@@ -49,7 +50,6 @@ export const Contenidor = styled.div`
       }
 
       input {
-        width: 25rem;
         margin-top: 0.5rem;
         background-color: ${({ theme }) => theme.colors.fons};
         padding: 1rem;
