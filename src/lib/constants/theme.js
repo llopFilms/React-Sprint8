@@ -1,5 +1,5 @@
 export const THEME = {
-  fontSizeGeneral: "62.5%",
+  fontSizeGeneral: "70%",
   amplada: {
     tauleta: "768px",
 		movil: "480px",

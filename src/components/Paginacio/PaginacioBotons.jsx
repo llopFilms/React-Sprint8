@@ -1,7 +1,6 @@
 import { Contenidor } from "./PaginacioBotonsStyled";
 
-const Paginacio = ({ pagina, setPagina, next }) => {
-  return (
+const Paginacio = ({ pagina, setPagina, next }) => (
     <Contenidor>
       <button
         onClick={() => setPagina((prev) => Math.max(prev - 1, 1))}
@@ -18,6 +17,5 @@ const Paginacio = ({ pagina, setPagina, next }) => {
       </button>
     </Contenidor>
   );
-};
 
 export default Paginacio;

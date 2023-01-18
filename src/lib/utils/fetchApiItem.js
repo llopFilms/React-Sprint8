@@ -16,7 +16,6 @@ export const fetchAPIItemData = async (
       },
     );
     setItemData(respostaItem.data);
-    console.log(respostaItem.data);
     console.log("Dades item carregades correctament");
   } catch (err) {
     setErrorItemData(err.message);
@@ -39,7 +38,6 @@ export const fetchAPIItemImg = async (
       },
     );
     setItemImg(urlItemImg);
-    console.log(respostaItem.data);
     console.log("Dades img item carregades correctament");
   } catch (err) {
     setErrorItemImg(ENDPOINTSAPI.starshipNoImgAlt);

@@ -7,8 +7,7 @@ import Footer from "./components/Footer/Footer";
 import AutenticacioContextProvider from "./context/autentitcacioContext";
 import Router from './Router/Router';
 
-function App() {
-	return (
+const App = () => (
 		<ThemeProvider theme={THEME}>
 			<GlobalStyles />
 			<AutenticacioContextProvider>
@@ -25,6 +24,5 @@ function App() {
 			</AutenticacioContextProvider>
 		</ThemeProvider>
 	);
-}
 
 export default App;

@@ -1,8 +1,8 @@
 import { Contenidor } from "./NavegadorStyled";
-import EnvLink from "../common/EnvLink";
 import { useReducer, useEffect } from "react";
 import { switchLinkNav } from "../../lib/utils/switchLinkNav";
 import { subscribe, unsubscribe } from "../../lib/utils/cutomEvents";
+import EnvLink from "../common/EnvLink";
 
 const Navegador = () => {
   const [state, dispatch] = useReducer(switchLinkNav, {

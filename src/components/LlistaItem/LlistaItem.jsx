@@ -2,9 +2,7 @@ import { getItemId } from "../../lib/utils/getItemId";
 import { Contenidor } from "./LlistaItemStyled";
 import EnvLink from "../common/EnvLink";
 
-const LlistaItem = ({ starship }) => {
-
-  return (
+const LlistaItem = ({ starship }) => (
     <EnvLink
       to={"/starships/starship/" + getItemId(starship.url)}
       className="link">
@@ -14,6 +12,5 @@ const LlistaItem = ({ starship }) => {
       </Contenidor>
     </EnvLink>
   );
-};
 
 export default LlistaItem;

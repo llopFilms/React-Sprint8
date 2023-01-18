@@ -7,7 +7,7 @@ export const Contenidor = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 2rem;
+	gap: 4rem;
 
 	.contenidor-imatge-nau {
 		width: 100%;
@@ -112,12 +112,13 @@ export const Contenidor = styled.div`
 	@media (max-width: ${({ theme }) => theme.amplada.movilPetit}) {
 		li {
 			flex-direction: column;
-			gap:.25rem;
+			gap: 0.25rem;
 
 			span:nth-child(2) {
 				flex: 1;
 				align-self: start;
 				font-size: 1.15rem;
+				padding-left: .5rem;
 			}
 		}
 	}

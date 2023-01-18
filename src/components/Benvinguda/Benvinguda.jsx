@@ -1,11 +1,8 @@
-import { Contenidor } from "./BenvingudaStyled";
 import { ENDPOINTSAPI } from "../../lib/constants/endPointsAPI";
+import { Contenidor } from "./BenvingudaStyled";
 import EnvLink from "../common/EnvLink";
 
-const Benvinguda = () => {
-  
-
-  return (
+const Benvinguda = () => (
     <Contenidor>
       <div>
         <h1>
@@ -37,6 +34,5 @@ const Benvinguda = () => {
       </EnvLink>
     </Contenidor>
   );
-};
 
 export default Benvinguda;
