@@ -57,7 +57,6 @@ export const Contenidor = styled.div`
 				color: ${({ theme }) => theme.colors.lletraGlobal};
 				border: 0.1rem solid ${({ theme }) => theme.colors.voraBlava};
 				border-radius: 0.5rem;
-				text-transform: uppercase;
 			}
 
 			input:hover {
