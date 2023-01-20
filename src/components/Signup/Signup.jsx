@@ -34,7 +34,7 @@ const SignUp = () => {
           <label htmlFor="usuari">
             Password
             <input
-              type="text"
+              type="password"
               name="claudePas"
               onChange={(e) => setClaudePas(e.target.value)}
               required
