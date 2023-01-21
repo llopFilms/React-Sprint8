@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/React-Sprint8/static/css/main.a7cd7848.css",
-    "main.js": "/React-Sprint8/static/js/main.4d3ca963.js",
+    "main.js": "/React-Sprint8/static/js/main.17c0e95d.js",
     "static/js/787.2bc7cda0.chunk.js": "/React-Sprint8/static/js/787.2bc7cda0.chunk.js",
     "static/media/bg-stars.jpeg": "/React-Sprint8/static/media/bg-stars.5e75483c154d696f9214.jpeg",
     "static/media/starWars_404.webp": "/React-Sprint8/static/media/starWars_404.e5ca8962fca66d8f05cc.webp",
     "static/media/logo-starwars.png": "/React-Sprint8/static/media/logo-starwars.306257e5c1a2b6670e7c.png",
     "index.html": "/React-Sprint8/index.html",
     "main.a7cd7848.css.map": "/React-Sprint8/static/css/main.a7cd7848.css.map",
-    "main.4d3ca963.js.map": "/React-Sprint8/static/js/main.4d3ca963.js.map",
+    "main.17c0e95d.js.map": "/React-Sprint8/static/js/main.17c0e95d.js.map",
     "787.2bc7cda0.chunk.js.map": "/React-Sprint8/static/js/787.2bc7cda0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7cd7848.css",
-    "static/js/main.4d3ca963.js"
+    "static/js/main.17c0e95d.js"
   ]
 }
