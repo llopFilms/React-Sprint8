@@ -82,5 +82,9 @@ export const Contenidor = styled.div`
 				font-size: 1.1rem;
 			}
 		}
+
+		.missatge {
+			color: #edbc53;
+		}
 	}
 `;
