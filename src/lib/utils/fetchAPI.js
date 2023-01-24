@@ -11,7 +11,8 @@ export const fetchAPI = async (url, pagina, setDades, setError, signal) => {
       },
     );
       
-    setDades(resposta.data);
+		setDades(resposta.data);
+		console.log(resposta);
     console.log("Dades carregades correctament");
   } catch (err) {
     setError(err.message);

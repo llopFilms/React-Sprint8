@@ -6,17 +6,17 @@ const Benvinguda = () => (
     <Contenidor>
       <div>
         <h1>
-          "Welcome to the Star Wars Website: A Journey Through the Galaxy"
+          Welcome to the Star Wars Website: A Journey Through the Galaxy
         </h1>
         <h2>
-          "Greetings, Star Wars fans! We are thrilled to have you visit our Star
+          Greetings, Star Wars fans! We are thrilled to have you visit our Star
           Wars website and embark on this journey through the galaxy
         </h2>
         <div className="imatge-nau">
           <img
             src={ENDPOINTSAPI.starshipBenvinguda}
             alt="starship benvinguda"
-          />
+          />Log 
         </div>
         <p>
           Starships are space vehicles that can carry people and cargo between
@@ -26,7 +26,7 @@ const Benvinguda = () => (
         </p>
         <p>
           We hope you enjoy your time on our website and we look forward to your
-          future visits. May the Force be with you always!"
+          future visits. May the Force be with you always!
         </p>
       </div>
       <EnvLink to="/starships" className="link">

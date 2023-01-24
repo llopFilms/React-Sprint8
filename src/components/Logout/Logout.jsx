@@ -5,7 +5,7 @@ import { publish } from "../../lib/utils/cutomEvents";
 import { useNavigate } from "react-router-dom";
 
 const Logout = () => {
-	const { logout, usuaris, usuariLoguejat } = useAutenticacioContext();
+	const { logout, usuariLoguejat } = useAutenticacioContext();
 	const navega = useNavigate();
 
 	useEffect(() => publish("none"), []);
@@ -21,7 +21,7 @@ const Logout = () => {
 
 	return (
 		<Contenidor>
-			<p>User {usuaris[usuariLoguejat].usuari} has logged out...</p>
+			<p>User has logged out...</p>
 		</Contenidor>
 	);
 };

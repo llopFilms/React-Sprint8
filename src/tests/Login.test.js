@@ -3,21 +3,21 @@ import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { THEME } from "../lib/constants/theme";
 import AutenticacioContextProvider from "../context/autentitcacioContext";
+import Login from "../components/Login/Login";
 import { eventTests } from "../lib/utils/eventTests";
-import SignUp from "../components/Signup/Signup";
 import { errorUsuari, errorClaudePas } from "../lib/constants/validateSchema";
 
 beforeAll(() => {
-	console.log("Inici tests Signup");
+	console.log("Inici tests Login");
 });
 
-describe("Signup testing", () => {
+describe("Login testing", () => {
 	beforeEach(() => {
 		render(
 			<BrowserRouter>
 				<ThemeProvider theme={THEME}>
 					<AutenticacioContextProvider>
-						<SignUp />
+						<Login />
 					</AutenticacioContextProvider>
 				</ThemeProvider>
 			</BrowserRouter>
@@ -52,7 +52,7 @@ describe("Signup testing", () => {
 					usuari: "Nom d'usuari X........",
 					submit: "submit",
 				},
-				/create user/i
+				/open session/i
 			);
 			expect(screen.getByText(errorUsuari)).toBeInTheDocument();
 		});
@@ -65,7 +65,7 @@ describe("Signup testing", () => {
 					password: "ClaudePas",
 					submit: "submit",
 				},
-				/create user/i
+				/open session/i
 			);
 			expect(screen.getByText(errorClaudePas)).toBeInTheDocument();
 		});
@@ -79,7 +79,7 @@ describe("Signup testing", () => {
 					password: "ClaudPas",
 					submit: "submit",
 				},
-				/create user/i
+				/open session/i
 			);
 			expect(screen.queryByText(errorUsuari)).not.toBeInTheDocument();
 			expect(screen.queryByText(errorClaudePas)).not.toBeInTheDocument();

@@ -20,7 +20,7 @@ const Capçalera = () => {
           <button>{usuariLoguejat === null ? "log in" : "log out"}</button>
         </EnvLink>
         <EnvLink className="link" to={"/auth/signup"}>
-          <button>sign up</button>
+					<button disabled={usuariLoguejat !== null}>sign up</button>
         </EnvLink>
       </div>
     </Contenidor>
