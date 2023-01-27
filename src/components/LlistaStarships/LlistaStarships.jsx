@@ -22,7 +22,7 @@ const LlistaStarships = () => {
 				<Contenidor>
 					<ul>
 						{dades.map((starship, index) => (
-							<LlistaItem key={index} starship={starship} />
+							<LlistaItem key={index} data-itemid={`starship-${index}`} starship={starship} />
 						))}
 					</ul>
 					<Paginacio pagina={pagina} setPagina={setPagina} />
