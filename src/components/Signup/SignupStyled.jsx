@@ -84,7 +84,7 @@ export const Contenidor = styled.div`
 		}
 
 		.missatge {
-			color: #edbc53;
+			color: ${({ theme }) => theme.colors.vora};
 		}
 	}
 `;

@@ -1,8 +1,8 @@
-import { useAutenticacioContext } from "../../context/autentitcacioContext";
 import { useEffect } from "react";
 import { Contenidor } from "./LogoutStyled";
 import { publish } from "../../lib/utils/cutomEvents";
 import { useNavigate } from "react-router-dom";
+import { useAutenticacioContext } from "../../context/AutentitcacioContext";
 
 const Logout = () => {
 	const { logout, usuariLoguejat } = useAutenticacioContext();

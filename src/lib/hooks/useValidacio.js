@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { schema } from "../constants/validateSchema";
-import { useAutenticacioContext } from "../../context/autentitcacioContext";
+import { useAutenticacioContext } from "../../context/AutentitcacioContext";
 
 export const useValidacio = (usuari, setUsuari, claudePas, setClaudePas, id) => {
 	const [errors, setErrors] = useState({

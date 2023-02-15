@@ -1,5 +1,5 @@
-import { useAutenticacioContext } from "../context/autentitcacioContext";
 import { Navigate, Outlet } from "react-router-dom";
+import { useAutenticacioContext } from "../context/AutentitcacioContext";
 
 const Public = () => {
   const { usuariLoguejat } = useAutenticacioContext();

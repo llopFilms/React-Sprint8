@@ -1,6 +1,6 @@
 import logo from "../../assets/img/logo-starwars.png";
 import { Contenidor } from "./CapçaleraStyled";
-import { useAutenticacioContext } from "../../context/autentitcacioContext";
+import { useAutenticacioContext } from "../../context/AutentitcacioContext";
 import EnvLink from "../common/EnvLink";
 
 const Capçalera = () => {

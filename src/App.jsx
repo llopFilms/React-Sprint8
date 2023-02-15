@@ -4,7 +4,7 @@ import { GlobalStyles } from "./styles/GlobalStyles/GlobalStyles";
 import Capçalera from "./components/Capçalera/Capçalera";
 import Navegador from "./components/Navegador/Navegador";
 import Footer from "./components/Footer/Footer";
-import AutenticacioContextProvider from "./context/autentitcacioContext";
+import AutenticacioContextProvider from "./context/AutentitcacioContext";
 import Router from './Router/Router';
 
 const App = () => (
